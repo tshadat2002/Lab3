@@ -4,7 +4,7 @@
 ## Lab 1
 
 ### App Description
-`TODO://` Flashcard app asking "Who owns Tesla" with multiple choice answers beneath the card. 
+Flashcard app asking "Who owns Tesla" with multiple choice answers beneath the card. 
 
 ### App Walk-though
 
