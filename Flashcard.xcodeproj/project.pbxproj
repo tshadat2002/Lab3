@@ -15,6 +15,7 @@
 		7BBE3D6D25E19D3D000A7236 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BBE3D6B25E19D3D000A7236 /* LaunchScreen.storyboard */; };
 		7BBE3D7825E19D3E000A7236 /* FlashcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBE3D7725E19D3E000A7236 /* FlashcardTests.swift */; };
 		7BBE3D8325E19D3E000A7236 /* FlashcardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBE3D8225E19D3E000A7236 /* FlashcardUITests.swift */; };
+		7BF7979A25F410120043C74C /* CreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF7979925F410120043C74C /* CreationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7BBE3D7E25E19D3E000A7236 /* FlashcardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashcardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BBE3D8225E19D3E000A7236 /* FlashcardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardUITests.swift; sourceTree = "<group>"; };
 		7BBE3D8425E19D3E000A7236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BF7979925F410120043C74C /* CreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				7BBE3D6425E19D3A000A7236 /* ViewController.swift */,
 				7BBE3D6625E19D3A000A7236 /* Main.storyboard */,
 				7BBE3D6925E19D3D000A7236 /* Assets.xcassets */,
+				7BF7979925F410120043C74C /* CreationViewController.swift */,
 				7BBE3D6B25E19D3D000A7236 /* LaunchScreen.storyboard */,
 				7BBE3D6E25E19D3D000A7236 /* Info.plist */,
 			);
@@ -261,6 +264,7 @@
 				7BBE3D6525E19D3A000A7236 /* ViewController.swift in Sources */,
 				7BBE3D6125E19D3A000A7236 /* AppDelegate.swift in Sources */,
 				7BBE3D6325E19D3A000A7236 /* SceneDelegate.swift in Sources */,
+				7BF7979A25F410120043C74C /* CreationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

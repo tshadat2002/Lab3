@@ -9,7 +9,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        //destination of segue is Navigation Controller
+        let navigationController = segue.destination as! UINavigationController
+        
+        //Navigation Controller only contains creation view controller
+        let creationController = navigationController.topViewController as! CreationViewController
+        
+        //we set the flashcardsController property to self
+        creationController.flashcardsController = self
+    }
     
     @IBOutlet weak var Btn3: UIButton!
     @IBOutlet weak var Btn2: UIButton!
@@ -46,6 +56,8 @@ class ViewController: UIViewController {
         Btn1.layer.cornerRadius = 10.0
         // Do any additional setup after loading the view.
     }
+  
+    
     
     @IBAction func didTapButton(_ sender: Any) {
         if (frontLabel.isHidden == true){
@@ -75,7 +87,13 @@ class ViewController: UIViewController {
         Btn3.isHidden = true
     }
     
-    
+    func updateFlashcard(question: String, answer: String, answer1: String?, answer2: String?){
+        frontLabel.text = question
+        backLabel.text = answer
+        Btn1.setTitle(answer1, for: .normal)
+        Btn2.setTitle(answer, for: .normal)
+        Btn3.setTitle(answer2, for: .normal)
+    }
     
     
 }
