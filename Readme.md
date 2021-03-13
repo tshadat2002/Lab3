@@ -32,7 +32,7 @@ App can save cards and allow you to scroll through them to study
 ### App Walk-though
 
 
-<img src="http://g.recordit.co/pZNdvoyLmx.gif" width=200><br>
+<img src="http://g.recordit.co/IAlijoTLpU.gif" width=200><br>
 
 
 ## Required
